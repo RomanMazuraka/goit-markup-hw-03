@@ -8,6 +8,8 @@ body {
 
 .header {
   background-color: #ffffff;
+  padding-top: 25.5px;
+  padding-bottom: 25.5px;
 }
 
 .hader-navigation {
@@ -30,6 +32,8 @@ body {
   letter-spacing: 0.03em;
 }
 
+.hader-list {
+}
 .hader-menu {
 }
 
@@ -56,30 +60,80 @@ body {
   letter-spacing: 0.02em;
 }
 
+.hader-address-list {
+}
+
 .hader-address-item-link:hover,
 .hader-address-item-link:focus {
   color: #404bbf;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 ul {
   list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 a {
   text-decoration: none;
+  color: currentColor;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+}
+
+address {
+  font-style: normal;
+}
+
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid red;
 }
 
 /* Section 1 */
 
+section {
+  padding: 120px 120px;
+}
 .hero {
   background-color: #2e2f42;
 }
+
+.hero-container {
+  padding-top: 188px;
+  padding-bottom: 188px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
 .hero-title {
   color: #fff;
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   letter-spacing: 0.02em;
+  max-width: 496px;
+  margin: 0 auto;
 }
 .hero-button {
   background-color: #4d5ae5;
@@ -89,6 +143,11 @@ a {
   font-family: inherit;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  display: inline-flex;
+  padding: 16px 32px;
+  margin-top: 48px;
+  align-items: flex-start;
+  gap: 10px;
 }
 
 .hero-button:hover,
@@ -102,9 +161,26 @@ a {
 
 .advantages-company {
 }
-.advantages-company-title {
+
+.advantages-company-container {
 }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .advantages-company-list {
+  display: flex;
+  gap: 24px;
 }
 .advantages-company-item {
 }
@@ -119,6 +195,7 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  width: 264px;
 }
 
 /* Section 3 */
@@ -126,6 +203,12 @@ a {
 .team-company {
   background-color: #f4f4fd;
 }
+
+.team-company-container {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .team-company-title {
   color: #2e2f42;
   font-size: 36px;
@@ -133,9 +216,14 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
+  padding-bottom: 72px;
 }
 
 .team-company-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
 }
 .team-company-item {
   background-color: #ffffff;
@@ -147,12 +235,18 @@ a {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  padding-top: 32px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
 }
 .team-company-item-text {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-bottom: 32px;
+  text-align: center;
 }
 
 /* Section 4 */
@@ -160,17 +254,29 @@ a {
 .portfolio-company {
   background-color: #ffffff;
 }
+
+.portfolio-company-container {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .portfolio-company-title {
   color: #2e2f42;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 72px;
 }
+
 .portfolio-company-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
 .portfolio-company-item {
   background-color: #fff;
+  margin-bottom: 48px;
 }
 .portfolio-company-img {
 }
@@ -192,6 +298,13 @@ a {
 .footer {
   background-color: #2e2f42;
 }
+
+.footer-container {
+  padding: 100px 1020px 100px 156px;
+  height: 312px;
+  flex-shrink: 0;
+}
+
 .footer-link {
   color: #4d5ae5;
   font-size: 18px;
@@ -199,6 +312,11 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-flex;
+  height: 24px;
+  align-items: center;
+  flex-shrink: 0;
+  margin-bottom: 17.5px;
 }
 
 .footer-link-text {
@@ -210,4 +328,5 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  width: 264px;
 }
