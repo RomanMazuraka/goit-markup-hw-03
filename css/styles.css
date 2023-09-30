@@ -343,7 +343,6 @@ section {
 }
 
 .footer-container {
-  height: 312px;
   flex-shrink: 0;
   padding: 100px 1020px 100px 156px;
 }
