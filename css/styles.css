@@ -320,7 +320,7 @@ section {
   row-gap: 48px;
 }
 
-.portfolio-company-item {
+.portfolio-company-item:first-child {
   width: calc((100% - 48px) / 3);
   background-color: #ffffff;
 }
