@@ -316,12 +316,18 @@ section {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  row-gap: 48px;
   flex-shrink: 0;
 }
 
 .portfolio-company-item {
   width: calc((100% - 48px) / 3);
   background-color: #ffffff;
+  margin-bottom: 48px;
+}
+
+.row-portfolio-company-item {
+  margin-bottom: 0;
 }
 
 .portfolio-company-img {
