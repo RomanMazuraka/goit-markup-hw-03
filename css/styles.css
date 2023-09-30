@@ -8,10 +8,12 @@ body {
 
 .header {
   background-color: #ffffff;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .hader-container {
   display: flex;
+  height: 72px;
   align-items: center;
   padding-top: 25.5px;
   padding-bottom: 25.5px;
@@ -22,7 +24,7 @@ body {
   align-items: center;
   margin-right: auto;
   flex-grow: 1;
-  gap: 76px;
+  gap: 72px;
 }
 
 .hader-logo {
@@ -36,6 +38,7 @@ body {
   height: 24px;
   align-items: center;
   flex-shrink: 0;
+  margin-right: 76px;
 }
 .hader-logo-text {
   color: #2e2f42;
@@ -58,6 +61,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0 24px;
 }
 
 .hader-menu-item:hover,
@@ -123,24 +127,22 @@ address {
 }
 
 .container {
-  width: 1128px;
-  padding-left: 15px;
-  padding-right: 15px;
+  width: 1158px;
+  padding: 0 15px 0 15px;
   margin: 0 auto;
 }
 
 /* Section 1 */
 
 section {
-  padding: 120px 120px;
+  padding: 188px 0 188px;
 }
+
 .hero {
   background-color: #2e2f42;
 }
 
 .hero-container {
-  padding-top: 188px;
-  padding-bottom: 188px;
   text-align: center;
   flex-shrink: 0;
 }
@@ -152,6 +154,7 @@ section {
   letter-spacing: 0.02em;
   max-width: 496px;
   margin: 0 auto;
+  padding-bottom: 48px;
 }
 .hero-button {
   background-color: #4d5ae5;
@@ -161,11 +164,12 @@ section {
   font-family: inherit;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  display: inline-flex;
-  padding: 16px 32px;
-  margin-top: 48px;
   border-radius: 4px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  margin: 0 auto;
 }
 
 .hero-button:hover,
@@ -178,8 +182,7 @@ section {
 /* Section 2 */
 
 .advantages-company {
-  padding-top: 120px;
-  padding-bottom: 156px;
+  padding: 120px 0 120px;
 }
 
 .advantages-company-container {
@@ -207,13 +210,13 @@ section {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 8px;
 }
 .advantages-company-item-title {
   color: #2e2f42;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .advantages-company-item-text {
   color: #434455;
@@ -227,8 +230,7 @@ section {
 
 .team-company {
   background-color: #f4f4fd;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0 120px;
 }
 
 .team-company-container {
@@ -241,7 +243,7 @@ section {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .team-company-list {
@@ -253,6 +255,7 @@ section {
 .team-company-item {
   background-color: #ffffff;
   width: calc((100% - 24px * 3) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-company-img {
   display: block;
@@ -267,6 +270,8 @@ section {
   letter-spacing: 0.02em;
   display: flex;
   justify-content: center;
+  text-align: center;
+  margin-bottom: 8px;
 }
 .team-company-item-text {
   color: #434455;
@@ -279,7 +284,6 @@ section {
 .content-company-container {
   display: flex;
   flex-direction: column;
-  gap: 8px;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -288,10 +292,12 @@ section {
 
 .portfolio-company {
   background-color: #ffffff;
-  padding: 120px 156px;
+  padding: 120px 0 120px 0;
 }
 
 .portfolio-company-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 
 .portfolio-company-title {
@@ -307,6 +313,7 @@ section {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolio-company-item {
@@ -323,6 +330,7 @@ section {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .portfolio-company-item-text {
   color: #434455;
@@ -340,11 +348,11 @@ section {
 
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0 100px;
 }
 
 .footer-container {
   flex-shrink: 0;
-  padding: 100px 1020px 100px 156px;
 }
 
 .footer-link {
@@ -358,7 +366,7 @@ section {
   height: 24px;
   align-items: center;
   flex-shrink: 0;
-  margin-bottom: 17.5px;
+  margin-bottom: 16px;
 }
 
 .footer-link-text {
