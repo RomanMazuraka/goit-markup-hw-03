@@ -109,13 +109,6 @@ ul {
   list-style: none;
 }
 
-li {
-  list-style: none;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-}
-
 a {
   text-decoration: none;
   color: currentColor;
@@ -321,9 +314,9 @@ section {
   flex-wrap: wrap;
   gap: 24px;
   row-gap: 48px;
-  flex-shrink: 0;
   padding-left: 0;
   padding-right: 0;
+  width: 1128px;
 }
 
 .portfolio-company-item {
