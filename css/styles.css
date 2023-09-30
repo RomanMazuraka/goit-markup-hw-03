@@ -301,7 +301,6 @@ section {
 .portfolio-company-container {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
-  max-width: 100%;
 }
 
 .portfolio-company-title {
@@ -330,6 +329,7 @@ section {
   max-width: 100%;
   height: auto;
 }
+
 .portfolio-company-item-title {
   color: #2e2f42;
   font-size: 20px;
