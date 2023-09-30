@@ -104,15 +104,12 @@ h6 {
 
 ul {
   list-style: none;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
+  margin: 0;
+  padding: 0;
 }
 
 li {
   list-style: none;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 a {
@@ -324,11 +321,6 @@ section {
 }
 
 .portfolio-company-item {
-  display: flex;
-  height: 420px;
-  padding-bottom: 0px;
-  flex-direction: column;
-  flex-shrink: 0;
   width: calc((100% - 48px) / 3);
   background-color: #ffffff;
 }
