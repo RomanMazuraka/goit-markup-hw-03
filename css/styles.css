@@ -316,8 +316,9 @@ section {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  margin-bottom: 0;
+  row-gap: 48px;
   flex-shrink: 0;
+  margin-bottom: 0;
 }
 
 .portfolio-company-item {
