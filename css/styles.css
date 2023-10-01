@@ -54,8 +54,8 @@ address {
 .hader-container {
   display: flex;
   align-items: center;
-  padding-top: 25.5px;
-  padding-bottom: 25.5px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .hader-navigation {
@@ -76,7 +76,7 @@ address {
   align-items: center;
   flex-shrink: 0;
   margin-right: 76px;
-  padding: 25.5px 0 25.5px;
+  padding: 24px 0 24px;
 }
 .hader-logo-text {
   color: #2e2f42;
