@@ -4,93 +4,6 @@ body {
   background-color: #ffffff;
 }
 
-/* Header */
-
-.header {
-  background-color: #ffffff;
-  border-bottom: 1px solid #e7e9fc;
-}
-
-.hader-container {
-  display: flex;
-  height: 72px;
-  align-items: center;
-  padding-top: 25.5px;
-  padding-bottom: 25.5px;
-}
-
-.hader-navigation {
-  display: flex;
-  align-items: center;
-  margin-right: auto;
-  flex-grow: 1;
-  gap: 72px;
-}
-
-.hader-logo {
-  color: #4d5ae5;
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  display: flex;
-  height: 24px;
-  align-items: center;
-  flex-shrink: 0;
-  margin-right: 76px;
-}
-.hader-logo-text {
-  color: #2e2f42;
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-}
-
-.hader-list {
-  display: flex;
-  align-items: flex-start;
-  gap: 40px;
-}
-.hader-menu {
-}
-
-.hader-menu-item {
-  color: #2e2f42;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  padding: 24px 0 24px;
-}
-
-.hader-menu-item:hover,
-.hader-menu-item:focus {
-  color: #404bbf;
-}
-
-.hader-address {
-  font-style: normal;
-  display: flex;
-}
-
-.hader-address-item-link {
-  color: #434455;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-.hader-address-list {
-  display: flex;
-  gap: 40px;
-}
-
-.hader-address-item-link:hover,
-.hader-address-item-link:focus {
-  color: #404bbf;
-}
-
 p,
 h1,
 h2,
@@ -126,10 +39,96 @@ address {
   font-style: normal;
 }
 
+/* Header */
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .container {
   width: 1158px;
   padding: 0 15px 0 15px;
   margin: 0 auto;
+}
+
+.hader-container {
+  display: flex;
+  align-items: center;
+  padding-top: 25.5px;
+  padding-bottom: 25.5px;
+}
+
+.hader-navigation {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.hader-logo {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  display: flex;
+  height: 24px;
+  align-items: center;
+  flex-shrink: 0;
+  margin-right: 76px;
+  padding: 25.5px 0 25.5px;
+}
+.hader-logo-text {
+  color: #2e2f42;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.hader-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.hader-menu {
+}
+
+.hader-menu-item {
+  color: #2e2f42;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding: 24px 0 24px;
+  display: block;
+}
+
+.hader-menu-item:hover,
+.hader-menu-item:focus {
+  color: #404bbf;
+}
+
+.hader-address {
+  font-style: normal;
+  display: flex;
+}
+
+.hader-address-item-link {
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding: 24px 0 24px;
+}
+
+.hader-address-list {
+  display: flex;
+  gap: 40px;
+}
+
+.hader-address-item-link:hover,
+.hader-address-item-link:focus {
+  color: #404bbf;
 }
 
 /* Section 1 */
@@ -154,7 +153,7 @@ section {
   letter-spacing: 0.02em;
   max-width: 496px;
   margin: 0 auto;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
 }
 .hero-button {
   background-color: #4d5ae5;
@@ -207,9 +206,6 @@ section {
 }
 .advantages-company-item {
   width: calc((100% - 24px * 3) / 4);
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
 }
 .advantages-company-item-title {
   color: #2e2f42;
@@ -268,8 +264,6 @@ section {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  display: flex;
-  justify-content: center;
   text-align: center;
   margin-bottom: 8px;
 }
@@ -282,8 +276,6 @@ section {
 }
 
 .content-company-container {
-  display: flex;
-  flex-direction: column;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -295,7 +287,7 @@ section {
   padding: 120px 0 120px 0;
 }
 
-.portfolio-company-container {
+.company-portfolio {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
 }
@@ -314,9 +306,6 @@ section {
   flex-wrap: wrap;
   gap: 24px;
   row-gap: 48px;
-  padding-left: 0;
-  padding-right: 0;
-  width: 1128px;
 }
 
 .portfolio-company-item {
