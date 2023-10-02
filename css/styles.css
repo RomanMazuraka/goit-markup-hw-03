@@ -252,6 +252,8 @@ section {
   background-color: #ffffff;
   width: calc((100% - 24px * 3) / 4);
   border-radius: 0px 0px 4px 4px;
+  display: flex;
+  flex-direction: column;
 }
 .team-company-img {
   display: block;
@@ -278,6 +280,7 @@ section {
 .content-company-container {
   padding-top: 32px;
   padding-bottom: 32px;
+  flex-grow: 1;
 }
 
 /* Section 4 */
@@ -311,6 +314,8 @@ section {
 .portfolio-company-item {
   width: calc((100% - 48px) / 3);
   background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
 }
 
 .portfolio-company-img {
@@ -337,6 +342,7 @@ section {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+  flex-grow: 1;
 }
 
 /* Footer */
